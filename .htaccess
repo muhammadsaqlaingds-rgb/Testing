@@ -1,0 +1,2 @@
+# Block direct access to config/src when the project root is served by Apache
+RedirectMatch 403 ^/attendance-admin/(config|src)/
